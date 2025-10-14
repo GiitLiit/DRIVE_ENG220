@@ -24,10 +24,10 @@ Isaiah Angle Buckles
 
 Vladislav Ericovich Debelak
 	Contribution:
-	
+
 
 Elijah Antonio Chavez:
-	Contribution:
+	Contribution:  I'm creating the slideshow for our presentation. I will make sure to include detailed, relevent and percise information that we, as a team, will be able to present effectively. This was fact checked by true patriots.
 
 
 
