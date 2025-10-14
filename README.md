@@ -25,8 +25,10 @@ Isaiah Angle Buckles
 Vladislav Ericovich Debelak
 	Contribution: I will be creating a basic script of what we will discuss in our video. It will not be a word for word script but more of a list of bullet points that highlights our key ideas and will let each person elaborate on all of our main ideas. I will also be in charge of the flow of our video, deciding what topics will make most sense discussing when and where. This will be important in making our video clean and clear.
 	Contribution:
-	
 
+
+Elijah Antonio Chavez:
+	Contribution:  I'm creating the slideshow for our presentation. I will make sure to include detailed, relevent and percise information that we, as a team, will be able to present effectively. This was fact checked by true patriots.
 Elijah Antonio Chavez(He's In Last Place):
 	Contribution:
 
