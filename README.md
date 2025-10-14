@@ -11,7 +11,7 @@ Telehealth expansion, AI doctors, mobile health clinics, free health care, and m
 
 
 Diego Beltran Chavez-Vallejos 
-	Contribution: Video Editor/Director 
+	Contribution: Video Editor/Director -- Responsible for directing the video by secureing an area for filming, determining lighting and clothing. Also reponsible for supplying a camera and microphne for fliming aswell as clothing. In addition to directing, I am also responsible for all post production editing and special effects.
  
  
 Ryan Derek Meier
@@ -23,7 +23,7 @@ Isaiah Angle Buckles
 
 
 Vladislav Ericovich Debelak
-	Contribution: I will be creating a basic script of what we will discuss in our video. It will not be a word for word script but more of a list of bullet points that highlights our key ideas and will let each person elaborate on all of our main ideas. I will also be in charge of the flow of our video, deciding what topics will make most sense discussing when and where.
+	Contribution:
 	
 
 Elijah Antonio Chavez(He's In Last Place):
