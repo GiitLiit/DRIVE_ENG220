@@ -19,7 +19,7 @@ Ryan Derek Meier
 
 
 Isaiah Angle Buckles
-	Contribution: I will be the main researcher of the group. I will provide data to the data analyst as well as research to the slides maker. 
+	Contribution: I will be the main researcher of the group. I will provide data to the data analyst as well as research to the slides maker. I will help around as well.
 
 
 Vladislav Ericovich Debelak
