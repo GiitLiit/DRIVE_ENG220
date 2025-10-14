@@ -15,7 +15,7 @@ Diego Beltran Chavez-Vallejos
  
  
 Ryan Derek Meier
-	Contribution:
+	Contribution: Data Cleanser/Analyst Engineer - Responsible for cleaning the data that we will use for the final project. Analizing the data and making sure that it looks correct and is usable in the way we want it. Then responsible for making any of the charts or graphs that we would like to use for the final project. 
 
 
 Isaiah Angle Buckles
