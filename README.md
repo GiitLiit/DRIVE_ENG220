@@ -11,23 +11,26 @@ Telehealth expansion, AI doctors, mobile health clinics, free health care, and m
 
 
 Diego Beltran Chavez-Vallejos 
-	Contribution: Video Editor/Director 
+	Contribution: Video Editor/Director -- Responsible for directing the video by secureing an area for filming, determining lighting and clothing. Also reponsible for supplying a camera and microphne for fliming aswell as clothing. In addition to directing, I am also responsible for all post production editing and special effects.
  
  
 Ryan Derek Meier
-	Contribution:
+	Contribution: Data Cleanser/Analyst Engineer - Responsible for cleaning the data that we will use for the final project. Analizing the data and making sure that it looks correct and is usable in the way we want it. Then responsible for making any of the charts or graphs that we would like to use for the final project. 
 
 
 Isaiah Angle Buckles
-	Contribution:
+	Contribution: I will be the main researcher of the group. I will provide data to the data analyst as well as research to the slides maker. 
 
 
 Vladislav Ericovich Debelak
+	Contribution: I will be creating a basic script of what we will discuss in our video. It will not be a word for word script but more of a list of bullet points that highlights our key ideas and will let each person elaborate on all of our main ideas. I will also be in charge of the flow of our video, deciding what topics will make most sense discussing when and where. This will be important in making our video clean and clear.
 	Contribution:
 
 
 Elijah Antonio Chavez:
 	Contribution:  I'm creating the slideshow for our presentation. I will make sure to include detailed, relevent and percise information that we, as a team, will be able to present effectively. This was fact checked by true patriots.
+Elijah Antonio Chavez(He's In Last Place):
+	Contribution:
 
 
 
