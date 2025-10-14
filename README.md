@@ -23,7 +23,7 @@ Isaiah Angle Buckles
 
 
 Vladislav Ericovich Debelak
-	Contribution: I will be creating a basic script of what we will discuss in our video. It will not be a word for word script but more of a list of bullet points that highlights our key ideas and will let each person elaborate on all of our main ideas. I will also be in charge of the flow of our video, deciding what topics will make most sense discussing when and where.
+	Contribution: I will be creating a basic script of what we will discuss in our video. It will not be a word for word script but more of a list of bullet points that highlights our key ideas and will let each person elaborate on all of our main ideas. I will also be in charge of the flow of our video, deciding what topics will make most sense discussing when and where. This will be important in making our video clean and clear.
 	
 
 Elijah Antonio Chavez(He's In Last Place):
