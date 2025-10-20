@@ -28,8 +28,7 @@ Vladislav Ericovich Debelak
 
 
 Elijah Antonio Chavez:
-	Contribution:  I'm creating the slideshow for our presentation. I will make sure to include detailed, relevent and percise information that we, as a team, will be able to present effectively. This was fact checked by true patriots.
-Elijah Antonio Chavez(He's In Last Place):
+	Contribution:  I'm creating the slideshow for our presentation. I will make sure to include detailed, relevent and percise information that we, as a team, will be able to present effectively. 
 
 
 Conclusion: The goal of this project is to hopefully make healthcare more accessible to people who are not in close proximity to any major hospitals/health clinics through the applications of telehealth expansions and mobile health clinics. As a team we are DRIVEn to make this happen.
