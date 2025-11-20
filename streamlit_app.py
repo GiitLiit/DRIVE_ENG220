@@ -1,5 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import streamlit as st
+
+st.title("HPSA Score Comparison")
 
 #Main New Mexico Data
 NMdata = pd.read_csv("FinalProjectDataPt2.csv")
@@ -12,8 +15,8 @@ NMdata["HPSA Score"] = pd.to_numeric(NMdata["HPSA Score"], errors="coerce")
 #Drop missing values
 clean_score_col = NMdata["HPSA Score"].dropna()
 
-print("Average HPSA Score for New Mexico:")
-print(clean_score_col.mean())
+st.write("### Average HPSA Score for New Mexico")
+st.write(clean_score_col.mean())
 
 #Main California Data
 #cali = pd.read_csv("CaliDataFinal.csv")
@@ -26,24 +29,21 @@ caliData["HPSA Score"] = pd.to_numeric(caliData["HPSA Score"], errors="coerce")
 
 cali_clean = caliData["HPSA Score"].dropna()
 
-print("Average HPSA Score for California:")
-print(cali_clean.mean())
+st.write("### Average HPSA Score for California")
+st.write(cali_clean.mean())
 
 #Main Massachusetts Data
 massData = pd.read_csv("MassachusettsData.csv", encoding="latin1")
-
-#print(massData.columns.tolist())
-
 
 #Convert Var8
 massData["Unnamed: 7"] = pd.to_numeric(massData["Unnamed: 7"], errors="coerce")
 
 mass_clean = massData["Unnamed: 7"].dropna()
 
-print("Average HPSA Score for Massachusetts:")
-print(mass_clean.mean())
+st.write("### Average HPSA Score for Massachusetts")
+st.write(mass_clean.mean())
 
-#Plotting    
+#Plotting
 fig, axs = plt.subplots(3, 1, figsize=(8, 12))
 
 #HPSA New Mexico plotting
