@@ -66,3 +66,6 @@ axs[2].set_ylabel("HPSA Scores")
 
 plt.tight_layout()
 plt.show()
+
+#Sending Plot to Streamlit
+st.pyplot(fig)
