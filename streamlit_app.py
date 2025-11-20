@@ -15,7 +15,7 @@ NMdata["HPSA Score"] = pd.to_numeric(NMdata["HPSA Score"], errors="coerce")
 #Drop missing values
 clean_score_col = NMdata["HPSA Score"].dropna()
 
-st.write("### Average HPSA Score for New Mexico")
+st.write("Average HPSA Score for New Mexico: ")
 st.write(clean_score_col.mean())
 
 #Main California Data
@@ -29,7 +29,7 @@ caliData["HPSA Score"] = pd.to_numeric(caliData["HPSA Score"], errors="coerce")
 
 cali_clean = caliData["HPSA Score"].dropna()
 
-st.write("### Average HPSA Score for California")
+st.write("Average HPSA Score for California: ")
 st.write(cali_clean.mean())
 
 #Main Massachusetts Data
@@ -40,7 +40,7 @@ massData["Unnamed: 7"] = pd.to_numeric(massData["Unnamed: 7"], errors="coerce")
 
 mass_clean = massData["Unnamed: 7"].dropna()
 
-st.write("### Average HPSA Score for Massachusetts")
+st.write("Average HPSA Score for Massachusetts: ")
 st.write(mass_clean.mean())
 
 #Plotting
