@@ -65,7 +65,7 @@ axs[2].set_xlabel("Different Disciplines in Massachusetts")
 axs[2].set_ylabel("HPSA Scores")
 
 plt.tight_layout()
-plt.show()
+#plt.show()
 
 #Sending Plot to Streamlit
 st.pyplot(fig)
