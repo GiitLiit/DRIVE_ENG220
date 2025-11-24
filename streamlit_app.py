@@ -6,7 +6,7 @@ import streamlit as st
 st.markdown(
     """
     <h1 style='text-align: center; color: #2E86C1; 
-               font-family: Arial; font-size: 55px;'>
+               font-family: Arial; font-size: 50px;'>
         HPSA Score Comparison
     </h1>
     """,
@@ -46,7 +46,7 @@ mass_clean = massData["Unnamed: 7"].dropna()
 #Plotting
 fig, axs = plt.subplots(3, 1, figsize=(8, 12))
 
-fig.subplots_adjust(hspace=0.8)
+fig.subplots_adjust(hspace=0.6)
 
 #HPSA New Mexico plotting
 axs[0].bar(range(len(clean_score_col)), clean_score_col, color="red")
@@ -55,7 +55,7 @@ axs[0].set_xlabel("Different Disciplines in NM")
 axs[0].set_ylabel("HPSA Scores")
 
 axs[0].text(
-    0.5, -0.25,
+    0.5, -0.35,
     f"Average HPSA Score for New Mexico: {clean_score_col.mean():.2f}",
     ha="center", va="center",
     transform=axs[0].transAxes
@@ -68,7 +68,7 @@ axs[1].set_xlabel("Different Disciplines in California")
 axs[1].set_ylabel("HPSA Scores")
 
 axs[1].text(
-    0.5, -0.25,
+    0.5, -0.35,
     f"Average HPSA Score for California: {cali_clean.mean():.2f}",
     ha="center", va="center",
     transform=axs[1].transAxes
@@ -81,7 +81,7 @@ axs[2].set_xlabel("Different Disciplines in Massachusetts")
 axs[2].set_ylabel("HPSA Scores")
 
 axs[2].text(
-    0.5, -0.25,
+    0.5, -0.35,
     f"Average HPSA Score for Massachusetts: {mass_clean.mean():.2f}",
     ha="center", va="center",
     transform=axs[2].transAxes
