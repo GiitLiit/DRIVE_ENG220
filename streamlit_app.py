@@ -2,7 +2,16 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit as st
 
-st.title("HPSA Score Comparison")
+#st.title("HPSA Score Comparison")
+st.markdown(
+    """
+    <h1 style='text-align: center; color: #2E86C1; 
+               font-family: Helvetica; font-size: 45px;'>
+        HPSA Score Comparison
+    </h1>
+    """,
+    unsafe_allow_html=True
+)
 
 #Main New Mexico Data
 NMdata = pd.read_csv("FinalProjectDataPt2.csv")
@@ -15,9 +24,6 @@ NMdata["HPSA Score"] = pd.to_numeric(NMdata["HPSA Score"], errors="coerce")
 #Drop missing values
 clean_score_col = NMdata["HPSA Score"].dropna()
 
-st.write("Average HPSA Score for New Mexico: ")
-st.write(clean_score_col.mean())
-
 #Main California Data
 #cali = pd.read_csv("CaliDataFinal.csv")
 
@@ -29,9 +35,6 @@ caliData["HPSA Score"] = pd.to_numeric(caliData["HPSA Score"], errors="coerce")
 
 cali_clean = caliData["HPSA Score"].dropna()
 
-st.write("Average HPSA Score for California: ")
-st.write(cali_clean.mean())
-
 #Main Massachusetts Data
 massData = pd.read_csv("MassachusettsData.csv", encoding="latin1")
 
@@ -39,9 +42,6 @@ massData = pd.read_csv("MassachusettsData.csv", encoding="latin1")
 massData["Unnamed: 7"] = pd.to_numeric(massData["Unnamed: 7"], errors="coerce")
 
 mass_clean = massData["Unnamed: 7"].dropna()
-
-st.write("Average HPSA Score for Massachusetts: ")
-st.write(mass_clean.mean())
 
 #Plotting
 fig, axs = plt.subplots(3, 1, figsize=(8, 12))
@@ -56,7 +56,7 @@ axs[0].set_ylabel("HPSA Scores")
 
 axs[0].text(
     0.5, -0.35,
-    f"Average Score: {clean_score_col.mean():.2f}",
+    f"Average HPSA Score for New Mexico: {clean_score_col.mean():.2f}",
     ha="center", va="center",
     transform=axs[0].transAxes
 )
@@ -69,7 +69,7 @@ axs[1].set_ylabel("HPSA Scores")
 
 axs[1].text(
     0.5, -0.35,
-    f"Average Score: {cali_clean.mean():.2f}",
+    f"Average HPSA Score for California: {cali_clean.mean():.2f}",
     ha="center", va="center",
     transform=axs[1].transAxes
 )
@@ -82,7 +82,7 @@ axs[2].set_ylabel("HPSA Scores")
 
 axs[2].text(
     0.5, -0.35,
-    f"Average Score: {mass_clean.mean():.2f}",
+    f"Average HPSA Score for Massachusetts: {mass_clean.mean():.2f}",
     ha="center", va="center",
     transform=axs[2].transAxes
 )
