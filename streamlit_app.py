@@ -6,7 +6,7 @@ import streamlit as st
 st.markdown(
     """
     <h1 style='text-align: center; color: #2E86C1; 
-               font-family: Helvetica; font-size: 45px;'>
+               font-family: Arial; font-size: 55px;'>
         HPSA Score Comparison
     </h1>
     """,
