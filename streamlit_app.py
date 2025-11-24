@@ -46,7 +46,7 @@ mass_clean = massData["Unnamed: 7"].dropna()
 #Plotting
 fig, axs = plt.subplots(3, 1, figsize=(8, 12))
 
-fig.subplots_adjust(hspace=0.6)
+fig.subplots_adjust(hspace=1.0)
 
 #HPSA New Mexico plotting
 axs[0].bar(range(len(clean_score_col)), clean_score_col, color="red")
