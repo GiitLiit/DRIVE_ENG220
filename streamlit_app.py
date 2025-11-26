@@ -54,11 +54,11 @@ axs[0].set_title("HPSA Score Within New Mexico")
 axs[0].set_xlabel("Different Disciplines in NM")
 axs[0].set_ylabel("HPSA Scores")
 
-axs[0].text(
-    0.5, -0.20,
+axs[0].annotate(
     f"Average HPSA Score for New Mexico: {clean_score_col.mean():.2f}",
-    ha="center", va="center",
-    transform=axs[0].transAxes
+    xy=(0.5, 0), xycoords="axes fraction",
+    xytext=(0, -40), textcoords="offset points",
+    ha="center", va="top"
 )
 
 #HPSA California plotting
@@ -67,11 +67,11 @@ axs[1].set_title("HPSA Score Within California")
 axs[1].set_xlabel("Different Disciplines in California")
 axs[1].set_ylabel("HPSA Scores")
 
-axs[1].text(
-    0.5, -0.20,
+axs[1].annotate(
     f"Average HPSA Score for California: {cali_clean.mean():.2f}",
-    ha="center", va="center",
-    transform=axs[1].transAxes
+    xy=(0.5, 0), xycoords="axes fraction",
+    xytext=(0, -40), textcoords="offset points",
+    ha="center", va="top"
 )
 
 #HPSA Massachusetts plotting
@@ -80,11 +80,11 @@ axs[2].set_title("HPSA Score Within Massachusetts")
 axs[2].set_xlabel("Different Disciplines in Massachusetts")
 axs[2].set_ylabel("HPSA Scores")
 
-axs[2].text(
-    0.5, -0.20,
+axs[2].annotate(
     f"Average HPSA Score for Massachusetts: {mass_clean.mean():.2f}",
-    ha="center", va="center",
-    transform=axs[2].transAxes
+    xy=(0.5, 0), xycoords="axes fraction",
+    xytext=(0, -40), textcoords="offset points",
+    ha="center", va="top"
 )
 
 plt.tight_layout()
